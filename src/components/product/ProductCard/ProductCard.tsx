@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./ProductCard.css";
+import "./ProductCard.scss";
 import type { Product } from "../../../types/product";
 
 interface Props {

@@ -7,7 +7,7 @@ import HeroBanner from "./components/sections/HeroBanner";
 import PartnersSection from "./components/sections/PartnersSection";
 import RelatedProductsSection from "./components/product/RelatedProductsSection";
 import ProductShowcase from "./components/product/ProductShowcase";
-import { getProducts } from "./service/productService";
+import { getProducts } from "./service/productsService";
 import { useEffect, useState } from "react";
 import type { Product } from "./types/product";
 

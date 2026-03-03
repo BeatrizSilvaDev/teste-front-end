@@ -1,10 +1,10 @@
 import { Component } from "react";
 import TecnologiaIcon from "../../../assets/images/categories/tecnologia.png";
-import SupermercadoIcon from "../../../assets/images/categories/supermercado.png";
+import SupermercadoIcon from "../../../assets/images/categories/supermercados.png";
 import BebidasIcon from "../../../assets/images/categories/bebidas.png";
 import FerramentasIcon from "../../../assets/images/categories/ferramentas.png";
 import SaudeIcon from "../../../assets/images/categories/saude.png";
-import EsporteIcon from "../../../assets/images/categories/esporteFitness.png";
+import EsporteIcon from "../../../assets/images/categories/esportesFitness.png";
 import ModaIcon from "../../../assets/images/categories/moda.png";
 
 import "./CategoriesSection.scss";
