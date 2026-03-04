@@ -3,7 +3,7 @@
 }
 
 .product-showcase-header {
-  width: 1138px;
+  width: 1280px;
   height: 45px;
   margin: 0 auto 4px;
   display: flex;
@@ -14,7 +14,7 @@
 
 .product-showcase-header h2 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: bold;
   color: #3442b5;
   white-space: nowrap;
 }
@@ -23,10 +23,10 @@
   flex: 1;
   height: 1px;
   background-color: #dedede;
+  max-width: 360px;
 }
 
 .product-showcase-subtitle {
-  font-family: "Poppins", sans-serif;
   font-weight: bold;
   display: block;
   text-align: center;

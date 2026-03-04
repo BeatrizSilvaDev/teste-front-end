@@ -1,3 +1,4 @@
+
 import { Component } from "react";
 import "./HeroBanner.scss";
 import heroImage from "../../../assets/images/hero-image.jpeg";

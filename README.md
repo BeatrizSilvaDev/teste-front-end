@@ -1,31 +1,189 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
+# 📦 Projeto E-commerce (React + TypeScript + Vite)
 
-### Vem ser #Econverse!
+Este projeto é uma aplicação front-end desenvolvida com **React**, **TypeScript** e **Vite**.
 
-Segue abaixo as instruções para a execução do teste.
+---
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br com o título **Teste Vaga FrontEnd**
+## 🚀 Tecnologias Utilizadas
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+- React
+- TypeScript
+- Vite
+- SCSS (Sass)
+- ESLint
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+---
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+# 🔧 Pré-requisitos
 
-**Boa sorte! ;)**
+Antes de começar, você precisa ter instalado:
+
+- **Node.js** (versão 18 ou superior recomendada)
+- **npm** ou **yarn**
+
+Verifique as versões:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+# 📥 Instalação
+
+Clone o repositório:
+
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd nome-do-projeto
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+ou
+
+```bash
+yarn
+```
+
+---
+
+# ▶️ Rodando o projeto em desenvolvimento
+
+Para iniciar o servidor local:
+
+```bash
+npm run dev
+```
+
+ou
+
+```bash
+yarn dev
+```
+
+Após iniciar, acesse no navegador:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🏗️ Gerando build para produção
+
+Para gerar a versão otimizada do projeto:
+
+```bash
+npm run build
+```
+
+ou
+
+```bash
+yarn build
+```
+
+Os arquivos finais ficarão na pasta:
+
+```
+/dist
+```
+
+---
+
+# 🔎 Visualizando build localmente
+
+Após gerar o build:
+
+```bash
+npm run preview
+```
+
+ou
+
+```bash
+yarn preview
+```
+
+---
+
+# 🧪 Rodando Testes
+
+Caso o projeto utilize Vitest ou Jest:
+
+```bash
+npm run test
+```
+
+ou
+
+```bash
+yarn test
+```
+
+Para rodar em modo watch:
+
+```bash
+npm run test:watch
+```
+
+---
+
+# 📁 Estrutura do Projeto
+
+```
+src/
+ ├── assets/
+ ├── components/
+ ├── data/
+ ├── pages/
+ ├── types/
+ ├── App.tsx
+ └── main.tsx
+```
+
+---
+
+# 🧹 Lint
+
+Para verificar problemas de código:
+
+```bash
+npm run lint
+```
+
+---
+
+# 🛠️ Scripts Disponíveis
+
+| Comando           | Descrição                          |
+| ----------------- | ---------------------------------- |
+| `npm run dev`     | Inicia servidor de desenvolvimento |
+| `npm run build`   | Gera build de produção             |
+| `npm run preview` | Visualiza build local              |
+| `npm run test`    | Executa testes                     |
+| `npm run lint`    | Executa lint                       |
+
+---
+
+# 📌 Observações
+
+- Certifique-se de que todas as variáveis de ambiente estejam configuradas (caso existam).
+- Caso enfrente problemas, apague a pasta `node_modules` e rode novamente `npm install`.
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por Beatriz Silva
